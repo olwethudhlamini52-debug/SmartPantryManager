@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Ingredient"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="30dp" />
+
+        <EditText
+            android:id="@+id/ingredientName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingredient name"
+            android:inputType="textCapSentences"
+            android:padding="14dp" />
+
+        <EditText
+            android:id="@+id/ingredientQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantity"
+            android:inputType="text"
+            android:padding="14dp"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/saveIngredientButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Ingredient"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/viewPantryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Pantry"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/findRecipesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find Recipes"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+
+</ScrollView>
+
